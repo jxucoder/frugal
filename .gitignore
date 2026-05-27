@@ -1,0 +1,15 @@
+# Reference repos and design research — not part of the shipped plugin
+resources/
+research/
+
+# Build artifacts
+dist/
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
