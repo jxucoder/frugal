@@ -1,0 +1,15 @@
+{
+  "name": "jxucoder-frugal",
+  "owner": {
+    "name": "Jiarui Xu",
+    "email": "jxucoder@gmail.com"
+  },
+  "description": "Cost-reduction discipline for AI coding sessions",
+  "plugins": [
+    {
+      "name": "frugal",
+      "description": "Minimizes turns and tokens through behavioral rules and compound learning.",
+      "source": "./"
+    }
+  ]
+}
