@@ -13,12 +13,12 @@ Frugal is a Claude Code plugin that reduces AI coding session costs by 30-50% th
 
 ## Install
 
-```bash
-# Clone the plugin
-git clone https://github.com/jxucoder/frugal.git ~/.claude/plugins/frugal
+```
+/plugin marketplace add jxucoder/claude-plugins
+/plugin install frugal@jxucoder-plugins
 ```
 
-Or try it in a single session without installing:
+Or try it locally without installing:
 
 ```bash
 claude --plugin-dir /path/to/frugal
@@ -82,10 +82,9 @@ Frugal and [caveman](https://github.com/JuliusBrussee/caveman) are complementary
 | **Savings** | ~65-75% per turn | ~30-50% fewer turns | ~75-85% total |
 | **Mechanism** | Terse prose | Better decisions | Stack |
 
-```bash
-# Use both — install each plugin
-git clone https://github.com/JuliusBrussee/caveman.git ~/.claude/plugins/caveman
-git clone https://github.com/jxucoder/frugal.git ~/.claude/plugins/frugal
+```
+/plugin marketplace add jxucoder/claude-plugins
+/plugin install frugal@jxucoder-plugins
 ```
 
 ## Research basis
